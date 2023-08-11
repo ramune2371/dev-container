@@ -21,3 +21,6 @@ RUN vim +":PlugInstall" +":qa"
 
 # install the coc nvim extensions
 RUN vim -s /root/init.vim
+
+WORKDIR /root
+CMD vim

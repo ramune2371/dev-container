@@ -12,6 +12,7 @@ set re=0
 set autoindent
 set smartindent
 set clipboard+=unnamed
+colorscheme desert
 
 map <Leader> <Plug>(easymotion-prefix)
 
